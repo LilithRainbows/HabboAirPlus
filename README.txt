@@ -10,7 +10,7 @@ Client version: WIN63-202206291351-193092611
 :givegem Amount (give gems to clicked user)
 :clone (clone clicked user look)
 :dance (0-4) (change current dance style)
-:playing (toggle playing mode)
+:playing (toggle click-through mode)
 :fx FxId (change current user fx with forced mode)
 :handitem ItemId (change current user handitem)
 :devwar (test all available clothes) (optional: figure can be loaded from clicked user)
