@@ -34,3 +34,4 @@ Client version: WIN63-202206291351-193092611
 -Fixed closed profiles visualization
 -Fixed decorated gift box icon visualization
 -Fixed photo thumbnails visualization
+-Fixed avatar menu arrow icons
