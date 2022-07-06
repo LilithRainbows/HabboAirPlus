@@ -1,5 +1,6 @@
 Client version: WIN63-202206291351-193092611
 
+:unitybadges (get unity exclusive badges)
 :snowclothing (blue or red) (secondary color value) (set snowstorm clothing)
 :fps Number (change current fps - default value is 24)
 :backlight (0-255) (set room backlight value)
@@ -35,3 +36,4 @@ Client version: WIN63-202206291351-193092611
 -Fixed decorated gift box icon visualization
 -Fixed photo thumbnails visualization
 -Fixed avatar menu arrow icons
+-Improved mute actions
