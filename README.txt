@@ -38,3 +38,4 @@ JPEXS version: 15.0.0
 -Fixed photo thumbnails visualization
 -Fixed avatar menu arrow icons
 -Improved mute actions
+-Forced sit and stand command
