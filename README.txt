@@ -1,4 +1,5 @@
 Client version: WIN63-202206291351-193092611
+JPEXS version: 15.0.0
 
 :unitybadges (get unity exclusive badges)
 :snowclothing (blue or red) (secondary color value) (set snowstorm clothing)
