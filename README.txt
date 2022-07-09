@@ -1,6 +1,7 @@
 Client version: WIN63-202206291351-193092611
 JPEXS version: 15.0.0
 
+:showids (toggle objects ids viewer)
 :ping (get latest ping value)
 :unitybadges (get unity exclusive badges)
 :snowclothing (blue or red) (secondary color value) (set snowstorm clothing)
@@ -40,3 +41,4 @@ JPEXS version: 15.0.0
 -Fixed avatar menu arrow icons
 -Improved mute actions
 -Forced sit and stand command
+-Fixed connection.login.code.prompt text
