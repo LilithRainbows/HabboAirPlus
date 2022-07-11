@@ -15,7 +15,7 @@ JPEXS version: 15.0.0
 :givegem Amount (give gems to clicked user)
 :clone (clone clicked user look)
 :dance (0-4) (change current dance style)
-:playing (toggle click-through mode)
+:playing (toggle click-through with forced mode)
 :fx FxId (change current user fx with forced mode)
 :handitem ItemId (change current user handitem)
 :devwar (test all available clothes) (optional: figure can be loaded from clicked user)
