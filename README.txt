@@ -43,3 +43,4 @@ JPEXS version: 15.0.0
 -Improved mute actions
 -Forced sit and stand command
 -Fixed connection.login.code.prompt text
+-Added remove command to messenger
