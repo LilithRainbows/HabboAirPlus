@@ -1,6 +1,7 @@
 Client version: WIN63-202206291351-193092611
 JPEXS version: 15.0.0
 
+:chatsize (12-40) (change chat font size)
 :autoclick (toggle autoclick button)
 :showids (toggle objects ids viewer)
 :ping (get latest ping value)
