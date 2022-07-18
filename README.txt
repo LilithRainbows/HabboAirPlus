@@ -46,3 +46,4 @@ JPEXS version: 15.0.0
 -Forced sit and stand command
 -Fixed connection.login.code.prompt text
 -Added remove command to messenger
+-Added buttons to enable/disable/clean cache to login screen
