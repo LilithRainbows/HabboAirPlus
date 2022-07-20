@@ -47,3 +47,4 @@ JPEXS version: 15.0.0
 -Fixed connection.login.code.prompt text
 -Added remove command to messenger
 -Added buttons to enable/disable/clean cache to login screen
+-Fixed messenger settings button
