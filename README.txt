@@ -8,7 +8,7 @@ JPEXS version: 15.0.0
 :showids (toggle objects ids viewer)
 :ping (get latest ping value)
 :unitybadges (get unity exclusive badges) (USE AT OWN RISK)
-:snowclothing (blue or red) (secondary color value) (set snowstorm clothing) (IN SERVER-SIDE CASES USE AT YOUR OWN RISK)
+:snowclothing (blue or red) (secondary color value) (set snowstorm clothing) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :fps Number (change current fps - default value is 24)
 :backlight (0-255) (set room backlight value)
 :roomlight (0-255) (set whole room light value)
@@ -19,11 +19,11 @@ JPEXS version: 15.0.0
 :clone (clone clicked user look)
 :dance (0-4) (change current dance style)
 :playing (toggle click-through with forced mode)
-:fx FxId (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT YOUR OWN RISK)
-:handitem ItemId (change current user handitem) (IN SERVER-SIDE CASES USE AT YOUR OWN RISK)
-:devwar (test all available clothes) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT YOUR OWN RISK)
+:fx FxId (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:handitem ItemId (change current user handitem) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:devwar (test all available clothes) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :calendar (open calendar) (USE AT OWN RISK)
-:linkevent Link (open a linkevent) (IN SERVER-SIDE CASES USE AT YOUR OWN RISK)
+:linkevent Link (open a linkevent) (IN SERVER-SIDE CASES USE AT OWN RISK)
 
 -Visit, roomid, chooser, furni and bcfloor commands are now available for all users
 -Fixed https protocol
