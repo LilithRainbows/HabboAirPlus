@@ -49,3 +49,4 @@ JPEXS version: 15.0.0
 -Added buttons to enable/disable/clean cache to login screen
 -Fixed messenger settings button
 -Added warning about scam sites to messenger
+-Fixed login screen background images
