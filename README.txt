@@ -1,6 +1,7 @@
 Client version: WIN63-202206291351-193092611
 JPEXS version: 15.0.0
 
+:onlineusers (get latest online users value)
 :bcolor HueNumber SaturationNumber LightnessNumber (change room background color)
 :chatsize (12-40) (change chat font size)
 :autoclick (toggle autoclick button)
