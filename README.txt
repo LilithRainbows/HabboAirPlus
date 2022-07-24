@@ -50,3 +50,4 @@ JPEXS version: 15.0.0
 -Fixed messenger settings button
 -Added warning about scam sites to messenger
 -Fixed login screen background images
+-Auto maximize client window at startup
