@@ -1,14 +1,14 @@
 Client version: WIN63-202206291351-193092611
 JPEXS version: 15.0.0
 
-:onlineusers (get latest online users value)
+:onlineusers (get latest online users value) (USE AT OWN RISK)
 :bcolor HueNumber SaturationNumber LightnessNumber (change room background color)
 :chatsize (12-40) (change chat font size)
 :autoclick (toggle autoclick button)
 :showids (toggle objects ids viewer)
 :ping (get latest ping value)
 :unitybadges (get unity exclusive badges)
-:snowclothing (blue or red) (secondary color value) (set snowstorm clothing)
+:snowclothing (blue or red) (secondary color value) (set snowstorm clothing) (USE AT OWN RISK)
 :fps Number (change current fps - default value is 24)
 :backlight (0-255) (set room backlight value)
 :roomlight (0-255) (set whole room light value)
@@ -21,7 +21,7 @@ JPEXS version: 15.0.0
 :playing (toggle click-through with forced mode)
 :fx FxId (change current user fx with forced mode)
 :handitem ItemId (change current user handitem)
-:devwar (test all available clothes) (optional: figure can be loaded from clicked user)
+:devwar (test all available clothes) (optional: figure can be loaded from clicked user) (USE AT OWN RISK)
 :calendar (open calendar)
 :linkevent Link (open a linkevent)
 
