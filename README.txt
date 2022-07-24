@@ -48,3 +48,4 @@ JPEXS version: 15.0.0
 -Added friend remove button to messenger
 -Added buttons to enable/disable/clean cache to login screen
 -Fixed messenger settings button
+-Added warning about scam sites to messenger
