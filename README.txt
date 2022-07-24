@@ -51,3 +51,5 @@ JPEXS version: 15.0.0
 -Added warning about scam sites to messenger
 -Fixed login screen background images
 -Auto maximize client window at startup
+-Now safety book (at page 6) is displayed at startup
+-Added safetybook and habboway commands
