@@ -53,3 +53,4 @@ JPEXS version: 15.0.0
 -Auto maximize client window at startup
 -Now safety book (at page 6) is displayed at startup
 -Added safetybook and habboway commands
+-Fixed camera movement bug (unconfirmed)
