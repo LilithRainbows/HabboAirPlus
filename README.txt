@@ -54,3 +54,4 @@ JPEXS version: 15.0.0
 -Now safety book (at page 6) is displayed at startup
 -Added safetybook and habboway commands
 -Fixed camera movement bug (unconfirmed)
+-Now the default language of the login screen depends on the system language
