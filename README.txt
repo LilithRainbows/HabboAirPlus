@@ -1,6 +1,8 @@
 Client version: WIN63-202206291351-193092611
 JPEXS version: 15.0.0
 
+:unlock (unlock clicked friendfurni like lovelocks) (USE AT OWN RISK)
+:unlocknc (unlock clicked friendfurni like lovelocks without confirmation dialog) (USE AT OWN RISK)
 :bcolor HueNumber SaturationNumber LightnessNumber (change room background color)
 :chatsize (12-40) (change chat font size)
 :autoclick (toggle autoclick button)
