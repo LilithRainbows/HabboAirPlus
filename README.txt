@@ -56,3 +56,4 @@ JPEXS version: 15.0.0
 -Added safetybook and habboway commands
 -Fixed camera movement bug (unconfirmed)
 -Now the default language of the login screen depends on the system language
+-Improved catalog badges visualization
