@@ -1,6 +1,7 @@
 Client version: WIN63-202206291351-193092611
 JPEXS version: 15.0.0
 
+:fon Number (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
 :unlock (unlock clicked friendfurni like lovelocks) (USE AT OWN RISK)
 :unlocknc (unlock clicked friendfurni like lovelocks without confirmation dialog) (USE AT OWN RISK)
 :bcolor HueNumber SaturationNumber LightnessNumber (change room background color)
@@ -57,3 +58,4 @@ JPEXS version: 15.0.0
 -Fixed camera movement bug (unconfirmed)
 -Now the default language of the login screen depends on the system language
 -Improved catalog badges visualization
+-Now a notification is displayed by default when a friend added to relationship goes online
