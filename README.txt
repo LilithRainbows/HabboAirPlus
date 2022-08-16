@@ -59,3 +59,5 @@ JPEXS version: 15.0.0
 -Now the default language of the login screen depends on the system language
 -Improved catalog badges visualization
 -Now a notification is displayed by default when a friend added to relationship goes online
+-Improved playing mode (while active the cursor will only be an arrow and outgoing messages will be blocked when clicking an user)
+-Now users relationships will remain invisible until they load
