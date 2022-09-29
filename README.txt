@@ -3,7 +3,7 @@ JPEXS version: 15.0.0
 
 :give (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :fon Number (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
-:bcolor HueNumber SaturationNumber LightnessNumber (change room background color)
+:bcolor HueNumber SaturationNumber LightnessNumber (change room background color with forced mode)
 :chatsize (12-40) (change chat font size)
 :autoclick (toggle autoclick button)
 :showids (toggle objects ids viewer)
