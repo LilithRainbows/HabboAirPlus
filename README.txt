@@ -2,6 +2,7 @@ Client version: WIN63-202210061647-887928653
 JPEXS version: 15.0.0
 
 Enabled commands:
+:infostand (toggle furni infostand visibility)
 :give (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :bgcolor HueNumber SaturationNumber LightnessNumber (change room background color with forced mode)
 :ping (get latest ping value)
