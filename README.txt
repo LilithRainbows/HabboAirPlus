@@ -19,7 +19,7 @@ Enabled commands:
 :playing (toggle click-through with forced mode)
 :fx FxId (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :handitem ItemId (change current user handitem) (IN SERVER-SIDE CASES USE AT OWN RISK)
-:devwar (test all available clothes) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:devwar (test all available clothes with forced mode) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :calendar (open calendar) (USE AT OWN RISK)
 :linkevent Link (open a linkevent) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :givegem Amount (give gems to clicked user) (USE AT OWN RISK)
