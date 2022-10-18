@@ -2,6 +2,7 @@ Client version: WIN63-202210061647-887928653
 JPEXS version: 15.0.0
 
 Enabled commands:
+:nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)
 :infostand (toggle furni infostand visibility)
 :give (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :bgcolor HueNumber SaturationNumber LightnessNumber (change room background color with forced mode)
