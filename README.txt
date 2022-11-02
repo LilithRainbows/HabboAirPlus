@@ -2,6 +2,8 @@ Client version: WIN63-202210061647-887928653
 JPEXS version: 15.0.0
 
 Enabled commands:
+:chatmute (mute/unmute room chat with forzed mode and without affecting chat history)
+:chatsize (12-40) (change chat font size with forced mode)
 :nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)
 :infostand (toggle furni infostand visibility)
 :give (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
@@ -28,8 +30,6 @@ Enabled commands:
 :showids (toggle objects ids viewer)
 :autoclick (toggle autoclick button)
 :fon Number (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
-
-NOTE: the chatsize command was not yet implemented in this version
 
 Enabled features:
 -Visit, roomid, chooser, furni and bcfloor commands are now available for all users-Fixed https protocol
