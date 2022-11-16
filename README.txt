@@ -59,7 +59,7 @@ Enabled features:
 -Added buttons to enable/disable/clean cache to login screen (cache is disabled by default)
 -Fixed messenger settings button
 -Auto maximize client window at startup
--Fixed camera movement bug (unconfirmed)
+-Fixed camera movement lock bug (can be unstable)
 -Now the default language of the login screen depends on the system language
 -Improved catalog badges visualization
 -Now a notification is displayed by default when a friend added to relationship goes online
