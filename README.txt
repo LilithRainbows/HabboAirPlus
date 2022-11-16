@@ -12,7 +12,7 @@ Enabled commands:
 :ping (get latest ping value) (CLIENT-SIDE)
 :pingsay (publicly say latest ping value) (SERVER-SIDE - USE AT OWN RISK)
 :unitybadges (get unity exclusive badges) (USE AT OWN RISK)
-:snowclothing (blue or red) (secondary color value) (set snowstorm clothing) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:snowclothing (blue/red) (secondary color value) (set snowstorm clothing) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :fps Number (change current fps - default value is 24)
 :backlight (0-255) (set room backlight value)
 :roomlight (0-255) (set whole room light value)
