@@ -2,6 +2,7 @@ Client version: WIN63-202210061647-887928653
 JPEXS version: 15.0.0
 
 Enabled commands:
+:reload (reload current room)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize (12-40) (change chat font size with forced mode)
 :nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)
