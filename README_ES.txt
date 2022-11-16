@@ -31,7 +31,7 @@ Comandos habilitados:
 :givegem [Cantidad] (dar gemas al usuario seleccionado) (USALO BAJO TU PROPIO RIESGO)
 :showids (mostrar los IDs de los furnis)
 :autoclick (mostrar el boton de AutoClick en los furnis)
-:fon [Number] (0=deshabilitado/1=habilitado para todos/2=habilitado solo para relaciones) (mostrar una notificacion cuando se conecta un amigo)
+:fon [Numero] (0=deshabilitado/1=habilitado para todos/2=habilitado solo para relaciones) (mostrar una notificacion cuando se conecta un amigo)
 :safetybook (mostrar el libro de seguridad del hotel)
 :habboway (mostrar informacion sobre la manera Habbo)
 
