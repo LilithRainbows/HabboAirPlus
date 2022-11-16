@@ -32,16 +32,18 @@ Enabled commands:
 :showids (toggle objects ids viewer)
 :autoclick (toggle autoclick button)
 :fon Number (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
+:safetybook (show hotel safety book)
+:habboway (show habbo way info)
 
 Enabled features:
--Visit, roomid, chooser, furni and bcfloor commands are now available for all users-Fixed https protocol
+-Visit, roomid, chooser, furni and bcfloor commands are now available for all users
+-Fixed https protocol
 -Disabled clipboard paste lock
 -Disabled external MPUs images (only images.habbo.com is allowed)
 -Give star gems from user profile instead of user context menu
 -Fixed user profile level text
 -Fixed furni chooser items width
 -Disabled furniture selection lock
--AutoClick button added to furni menu
 -Disabled mannequin hc validator (this also avoid crashes)
 -Allow voting for both options on community goals
 -Fixed campaign calendar icon
@@ -57,7 +59,6 @@ Enabled features:
 -Added buttons to enable/disable/clean cache to login screen (cache is disabled by default)
 -Fixed messenger settings button
 -Auto maximize client window at startup
--Added safetybook and habboway commands
 -Fixed camera movement bug (unconfirmed)
 -Now the default language of the login screen depends on the system language
 -Improved catalog badges visualization
