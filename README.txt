@@ -19,7 +19,7 @@ Enabled commands:
 :forcedmute [Username] (force a 72-hour user mute) (USE AT OWN RISK)
 :afk (toggle anti afk with forced mode)
 :respect (give respects to clicked user) (USE AT OWN RISK)
-:clone [optional:SEX] (clone clicked user look)
+:clone [optional:Sex] (clone clicked user look)
 :dance [0-4] (change current dance style)
 :playing (toggle click-through with forced mode)
 :fx [FxId] (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
