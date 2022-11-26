@@ -1,4 +1,4 @@
-Client version: WIN63-202210061647-887928653
+Client version: WIN63-202211211324-128637707
 JPEXS version: 15.0.0
 
 Enabled commands:
@@ -17,9 +17,9 @@ Enabled commands:
 :backlight [0-255] (set room backlight value)
 :roomlight [0-255] (set whole room light value)
 :forcedmute [Username] (force a 72-hour user mute) (USE AT OWN RISK)
-:afk (toggle anti afk mode)
+:afk (toggle anti afk with forced mode)
 :respect (give respects to clicked user) (USE AT OWN RISK)
-:clone (clone clicked user look)
+:clone [optional:SEX] (clone clicked user look)
 :dance [0-4] (change current dance style)
 :playing (toggle click-through with forced mode)
 :fx [FxId] (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
@@ -36,6 +36,9 @@ Enabled commands:
 :habboway (show habbo way info)
 
 Enabled features:
+-Fixed UserDataManager reset bug
+-Updated defaut avatar editor figures
+-Customized login screen background
 -Visit, roomid, chooser, furni and bcfloor commands are now available for all users
 -Fixed https protocol
 -Disabled clipboard paste lock
