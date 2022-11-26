@@ -1,4 +1,4 @@
-Version del cliente: WIN63-202210061647-887928653
+Version del cliente: WIN63-202211211324-128637707
 Version de JPEXS: 15.0.0
 
 Comandos habilitados:
@@ -17,9 +17,9 @@ Comandos habilitados:
 :backlight [0-255] (cambiar el valor de la luz de fondo)
 :roomlight [0-255] (cambiar el valor de la luz de la habitacion)
 :forcedmute [Usuario] (forzar un muteo de 72 horas) (USALO BAJO TU PROPIO RIESGO)
-:afk (cambiar al modo anti-ausente)
+:afk (activar/desactivar anti-afk con modo forzado)
 :respect (darle respetos al usuario seleccionado) (USALO BAJO TU PROPIO RIESGO)
-:clone (copiar el aspecto del usuario seleccionado)
+:clone [opcional:Sexo] (copiar el aspecto del usuario seleccionado)
 :dance [0-4] (cambiar el estilo de baile actual)
 :playing (cambiar al modo de juego para no clickear accidentalmente a los usuarios, con modo forzado)
 :fx FxId (cambiar el efecto actual con modo forzado) (PARA CASOS DONDE LO VEAN TODOS USALO BAJO TU PROPIO RIESGO)
@@ -36,6 +36,9 @@ Comandos habilitados:
 :habboway (mostrar informacion sobre la manera Habbo)
 
 Mejoras habilitadas:
+-Arreglado el reset de UserDataManager
+-Looks predeterminados del editor de avatares actualizados
+-Fondos personalizados en la pantalla de inicio
 -Los comandos visit, roomid, chooser, furni y bcfloor ahora estan disponibles para todos
 -Protocolo https reparado
 -Deshabilitado el bloqueo de pegado de texto
