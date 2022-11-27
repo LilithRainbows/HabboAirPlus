@@ -36,7 +36,6 @@ Enabled commands:
 :habboway (show habbo way info)
 
 Enabled features:
--Fixed UserDataManager reset bug
 -Updated defaut avatar editor figures
 -Customized login screen background
 -Visit, roomid, chooser, furni and bcfloor commands are now available for all users
