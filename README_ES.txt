@@ -36,7 +36,6 @@ Comandos habilitados:
 :habboway (mostrar informacion sobre la manera Habbo)
 
 Mejoras habilitadas:
--Arreglado el reset de UserDataManager
 -Looks predeterminados del editor de avatares actualizados
 -Fondos personalizados en la pantalla de inicio
 -Los comandos visit, roomid, chooser, furni y bcfloor ahora estan disponibles para todos
