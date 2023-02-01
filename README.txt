@@ -5,7 +5,6 @@ Enabled commands:
 :reload (reload current room)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize [12-40] (change chat font size with forced mode)
-~~:nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)~~
 :infostand (toggle furni infostand visibility)
 :give (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :bgcolor [HueNumber] [SaturationNumber] [LightnessNumber] (change room background color with forced mode)
@@ -34,6 +33,9 @@ Enabled commands:
 :fon [Number] (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
 :safetybook (show hotel safety book)
 :habboway (show habbo way info)
+
+Discontinued commands:
+:nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)
 
 Enabled features:
 -Updated defaut avatar editor figures
