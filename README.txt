@@ -5,7 +5,7 @@ Enabled commands:
 :reload (reload current room)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize [12-40] (change chat font size with forced mode)
-:nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)
+~~:nuxcat :nuxdog :nuxpig :nuxhc (claim welcome rewards, claiming a pet is ideal since it also gives hc and fridge) (USE AT OWN RISK)~~
 :infostand (toggle furni infostand visibility)
 :give (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :bgcolor [HueNumber] [SaturationNumber] [LightnessNumber] (change room background color with forced mode)
