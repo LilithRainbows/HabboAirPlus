@@ -2,6 +2,11 @@ Client version: WIN63-202304181922-68514878
 JPEXS version: 15.0.0
 
 Enabled commands:
+:chatmute (mute/unmute room chat with forced mode and without affecting chat history)
+:chatsize [12-40] (change chat font size with forced mode)
+:showbubbles (show all chat bubbles styles)
+:color [HexColor/classic/pink] (change client title bar color)
+:barcolor [HexColor/classic/pink] (change client bottom bar color)
 :playing (toggle click-through with forced mode)
 :fx [FxId] (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :dance [0-4] (change current dance style)
@@ -9,6 +14,8 @@ Enabled commands:
 :afk (toggle anti afk with forced mode)
 :ping (get latest ping value) (USE AT OWN RISK)
 :pingsay (publicly say latest ping value) (USE AT OWN RISK)
+:pingtext (change text before ping value)
+:showids (toggle objects ids viewer)
 
 Enabled features:
 -Changed window bar color to pink
@@ -22,3 +29,11 @@ Enabled features:
 -Fixed photo thumbnails visualization
 -Removed wired save confirmation message
 -Fixed closed profiles visualization
+-Improved playing mode (while active the cursor will be an arrow and look to users will be blocked)
+-Avoid client core crashes
+-Fixed furni chooser items width
+-Disabled furniture selection lock
+-Now users relationships will remain invisible until they load
+-Now the default language of the login screen depends on the system language
+-Customized login screen background
+-Removed EncryptedLocalStorage
