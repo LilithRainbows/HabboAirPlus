@@ -2,6 +2,7 @@ Client version: WIN63-202304181922-68514878
 JPEXS version: 15.0.0
 
 Enabled commands:
+:infostand (toggle furni/user infostand visibility)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize [12-40] (change chat font size with forced mode)
 :showbubbles (show all chat bubbles styles)
