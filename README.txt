@@ -2,6 +2,9 @@ Client version: WIN63-202304181922-68514878
 JPEXS version: 15.0.0
 
 Enabled commands:
+:devwar (test all available clothes with forced mode) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:stopdevwar (stop devwar command and recover your real look)
+:resetvars (reset saved client variables)
 :infostand (toggle furni/user infostand visibility)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize [12-40] (change chat font size with forced mode)
@@ -38,3 +41,4 @@ Enabled features:
 -Now the default language of the login screen depends on the system language
 -Customized login screen background
 -Removed EncryptedLocalStorage
+-Now commands variables are saved
