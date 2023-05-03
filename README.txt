@@ -42,3 +42,4 @@ Enabled features:
 -Customized login screen background
 -Removed EncryptedLocalStorage
 -Now commands variables are saved
+-Allow voting for both options on community goals
