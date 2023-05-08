@@ -2,6 +2,10 @@ Client version: WIN63-202304181922-68514878
 JPEXS version: 15.0.0
 
 Enabled commands:
+:lightsaber (toggle lightsaber fx)
+:furnimark (toggle furnimark mode)
+:autoclick (toggle autoclick mode)
+:autoclickdelay (change autoclick delay)
 :devwar (test all available clothes with forced mode) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :stopdevwar (stop devwar command and recover your real look)
 :resetvars (reset saved client variables)
