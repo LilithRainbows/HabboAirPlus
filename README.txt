@@ -1,7 +1,19 @@
-Client version: WIN63-202304181922-68514878
+Client version: MAC63-202305191855-260008915
 JPEXS version: 15.0.0
 
 Enabled commands:
+:backlight [0-255] (set room backlight value with forced mode)
+:roomlight [0-255] (set room light value with forced mode)
+:bgcolor [HueNumber] [SaturationNumber] [LightnessNumber] (change room background color with forced mode)
+:fps Number (change current fps value with forced mode)
+:unlockfps (unlock/lock animations fps with forced mode)
+:respect (give respects to clicked user) (USE AT OWN RISK)
+:safetybook (show hotel safety book)
+:habboway (show habbo way info)
+:handitem [ItemId] (change current user handitem) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:calendar (open calendar) (USE AT OWN RISK)
+:linkevent [Link] (open a linkevent) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:givegem [Amount] (give gems to clicked user) (USE AT OWN RISK)
 :lightsaber (toggle lightsaber fx)
 :furnimark (toggle furnimark mode)
 :autoclick (toggle autoclick mode)
@@ -26,7 +38,6 @@ Enabled commands:
 :showids (toggle objects ids viewer)
 
 Enabled features:
--Changed window bar color to pink
 -Auto maximize client window at startup
 -Chooser, furni and bcfloor commands are now available for all users
 -Fixed https protocol
@@ -47,3 +58,8 @@ Enabled features:
 -Removed EncryptedLocalStorage
 -Now commands variables are saved
 -Allow voting for both options on community goals
+-Remove FileProxy instance
+-Fixed avatar menu arrow icons
+-Improved catalog badges visualization
+-Fixed decorated gift box icon visualization
+-Updated defaut avatar editor figures
