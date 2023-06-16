@@ -1,3 +1,7 @@
+****************************
+WARNING: NO LONGER SUPPORTED
+****************************
+
 Client version: MAC63-202305191855-260008915
 JPEXS version: 15.0.0
 
