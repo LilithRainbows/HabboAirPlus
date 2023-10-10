@@ -1,8 +1,4 @@
-****************************
-WARNING: NO LONGER SUPPORTED
-****************************
-
-Client version: MAC63-202305191855-260008915
+Client version: WIN63-202309271213-349770282
 JPEXS version: 15.0.0
 
 Enabled commands:
@@ -40,6 +36,10 @@ Enabled commands:
 :pingsay (publicly say latest ping value) (USE AT OWN RISK)
 :pingtext (change text before ping value)
 :showids (toggle objects ids viewer)
+:adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:botchaser [optional:BotName] (toggle bot chaser activity) (USE AT OWN RISK)
+:botchaserwalkdelay (change bot chaser walk delay) (USE AT OWN RISK)
+:botchaserclickdelay (change bot chaser click delay) (USE AT OWN RISK)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -47,7 +47,6 @@ Enabled features:
 -Fixed https protocol
 -Disabled clipboard paste lock
 -Forced sit and stand command
--Fixed camera movement lock bug (can be unstable)
 -Fixed connection.login.code.prompt text
 -Fixed photo thumbnails visualization
 -Removed wired save confirmation message
