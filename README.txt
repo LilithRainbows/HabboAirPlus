@@ -40,6 +40,7 @@ Enabled commands:
 :botchaser [optional:BotName] (toggle bot chaser activity) (USE AT OWN RISK)
 :botchaserwalkdelay (change bot chaser walk delay) (USE AT OWN RISK)
 :botchaserclickdelay (change bot chaser click delay) (USE AT OWN RISK)
+:typing (toggle chat typing indicator) (USE AT OWN RISK)
 
 Enabled features:
 -Auto maximize client window at startup
