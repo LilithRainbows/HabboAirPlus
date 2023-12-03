@@ -59,3 +59,4 @@ Enabled features:
 -Fixed decorated gift box icon visualization
 -Updated defaut avatar editor figures
 -Improved xmas decoration
+-Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
