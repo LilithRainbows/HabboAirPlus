@@ -1,4 +1,4 @@
-Client version: WIN63-202309271213-349770282
+Client version: WIN63-202311211206-273302337 (spoofed as WIN63-202311171345-300653059)
 JPEXS version: 15.0.0
 
 Enabled commands:
@@ -18,8 +18,6 @@ Enabled commands:
 :furnimark (toggle furnimark mode)
 :autoclick (toggle autoclick mode)
 :autoclickdelay (change autoclick delay)
-:devwar (test all available clothes with forced mode) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
-:stopdevwar (stop devwar command and recover your real look)
 :resetvars (reset saved client variables)
 :infostand (toggle furni/user infostand visibility)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
@@ -36,17 +34,12 @@ Enabled commands:
 :pingsay (publicly say latest ping value) (USE AT OWN RISK)
 :pingtext (change text before ping value)
 :showids (toggle objects ids viewer)
-:adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
-:botchaser [optional:BotName] (toggle bot chaser activity) (USE AT OWN RISK)
-:botchaserwalkdelay (change bot chaser walk delay) (USE AT OWN RISK)
-:botchaserclickdelay (change bot chaser click delay) (USE AT OWN RISK)
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
 
 Enabled features:
 -Auto maximize client window at startup
 -Chooser, furni and bcfloor commands are now available for all users
 -Fixed https protocol
--Disabled clipboard paste lock
 -Forced sit and stand command
 -Fixed connection.login.code.prompt text
 -Fixed photo thumbnails visualization
@@ -57,13 +50,12 @@ Enabled features:
 -Fixed furni chooser items width
 -Disabled furniture selection lock
 -Now users relationships will remain invisible until they load
--Now the default language of the login screen depends on the system language
 -Customized login screen background
 -Removed EncryptedLocalStorage
 -Now commands variables are saved
 -Allow voting for both options on community goals
--Remove FileProxy instance
 -Fixed avatar menu arrow icons
 -Improved catalog badges visualization
 -Fixed decorated gift box icon visualization
 -Updated defaut avatar editor figures
+-Improved xmas decoration
