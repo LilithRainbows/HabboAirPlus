@@ -32,7 +32,9 @@ Enabled commands:
 :afk (toggle anti afk with forced mode)
 :ping (get latest ping value) (USE AT OWN RISK)
 :pingsay (publicly say latest ping value) (USE AT OWN RISK)
-:pingtext (change text before ping value)
+:pingbeforetext (change text before ping value)
+:pingaftertext (change text after ping value)
+:pingbubble [optional:auto] (change pingsay bubble to current chat bubble)
 :showids (toggle objects ids viewer)
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
 
