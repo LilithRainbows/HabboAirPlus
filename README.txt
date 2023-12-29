@@ -37,6 +37,7 @@ Enabled commands:
 :pingbubble [optional:auto] (change pingsay bubble to current chat bubble)
 :showids (toggle objects ids viewer)
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
+:showerrors (show/hide critical client errors)
 
 Enabled features:
 -Auto maximize client window at startup
