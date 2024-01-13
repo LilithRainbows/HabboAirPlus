@@ -36,10 +36,11 @@ Enabled commands:
 :pingsay (publicly say latest ping value) (USE AT OWN RISK)
 :pingbeforetext (change text before ping value)
 :pingaftertext (change text after ping value)
-:pingbubble [optional:auto] (change pingsay bubble to current chat bubble)
+:pingbubble [optional:auto] (change pingsay bubble to current selected chat bubble style)
 :showids (toggle objects ids viewer)
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
 :showerrors (show/hide critical client errors)
+:spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -65,3 +66,4 @@ Enabled features:
 -Updated defaut avatar editor figures
 -Improved xmas decoration
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
+-Forced selected chat bubble style save
