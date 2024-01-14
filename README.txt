@@ -42,6 +42,7 @@ Enabled commands:
 :showerrors (show/hide critical client errors)
 :spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
 :rotate (toggle room rotate effect)
+:adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
 
 Enabled features:
 -Auto maximize client window at startup
