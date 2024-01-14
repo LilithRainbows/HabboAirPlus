@@ -41,6 +41,7 @@ Enabled commands:
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
 :showerrors (show/hide critical client errors)
 :spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
+:rotate (toggle room rotate effect)
 
 Enabled features:
 -Auto maximize client window at startup
