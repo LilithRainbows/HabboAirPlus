@@ -43,6 +43,7 @@ Enabled commands:
 :spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
 :rotate (toggle room rotate effect)
 :adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:figure [FigureCode] [optional:FigureSex] (change avatar figure)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -70,3 +71,4 @@ Enabled features:
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
 -Forced selected chat bubble style save
 -Allow local load of furni swf files (needs to be located inside local_include folder)
+-Max chat input for commands increased to 200 characters
