@@ -67,3 +67,4 @@ Enabled features:
 -Improved xmas decoration
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
 -Forced selected chat bubble style save
+-Allow local load of furni swf files (needs to be located inside local_include folder)
