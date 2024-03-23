@@ -1,4 +1,4 @@
-Client version: WIN63-202311211206-273302337 (spoofed as WIN63-202311171345-300653059)
+Client version: WIN63-202403191031-705073869 (spoofed as WIN63-202403221220-4338875)
 JPEXS version: 15.0.0
 
 Enabled commands:
@@ -62,13 +62,15 @@ Enabled features:
 -Customized login screen background
 -Removed EncryptedLocalStorage
 -Now commands variables are saved
--Allow voting for both options on community goals
+-Allow voting for both options on community goals 
 -Fixed avatar menu arrow icons
 -Improved catalog badges visualization
 -Fixed decorated gift box icon visualization
 -Updated defaut avatar editor figures
--Improved xmas decoration
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
 -Forced selected chat bubble style save
 -Allow local load of furni swf files (needs to be located inside local_include folder)
 -Max chat input for commands increased to 200 characters
+-Removed mannequins gender/hc limitations (in addition to avoiding crashes due to bugged mannequins)
+-Autofocus sso login screen inputfield
+-Fixed gifts calendar icon and title
