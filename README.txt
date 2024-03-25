@@ -74,3 +74,5 @@ Enabled features:
 -Removed mannequins gender/hc limitations (in addition to avoiding crashes due to bugged mannequins)
 -Autofocus sso login screen inputfield
 -Fixed gifts calendar icon and title
+-Fixed black screen after opening gift dialogs and improved untrusted gift message localization
+-Now the default language of the login screen depends on the system language
