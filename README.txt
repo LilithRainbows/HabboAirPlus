@@ -76,3 +76,4 @@ Enabled features:
 -Fixed gifts calendar icon and title
 -Fixed black screen after opening gift dialogs and improved untrusted gift message localization
 -Now the default language of the login screen depends on the system language
+-Fixed invisible room queue (now queue dialog is displayed)
