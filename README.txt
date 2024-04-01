@@ -44,6 +44,7 @@ Enabled commands:
 :rotate (toggle room rotate effect)
 :adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :figure [FigureCode] [optional:FigureSex(M or F)] (change avatar figure)
+:showquestsids (toggle quests ids)
 
 Enabled features:
 -Auto maximize client window at startup
