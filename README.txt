@@ -30,7 +30,7 @@ Enabled commands:
 :playing (toggle click-through with forced mode)
 :fx [FxId] (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :dance [0-4] (change current dance style)
-:clone [optional:Sex] (clone clicked user look)
+:clone [optional:Sex(M or F)] (clone clicked user look)
 :afk (toggle anti afk with forced mode)
 :ping (get latest ping value) (USE AT OWN RISK)
 :pingsay (publicly say latest ping value) (USE AT OWN RISK)
@@ -43,7 +43,7 @@ Enabled commands:
 :spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
 :rotate (toggle room rotate effect)
 :adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
-:figure [FigureCode] [optional:FigureSex] (change avatar figure)
+:figure [FigureCode] [optional:FigureSex(M or F)] (change avatar figure)
 
 Enabled features:
 -Auto maximize client window at startup
