@@ -45,6 +45,7 @@ Enabled commands:
 :adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :figure [FigureCode] [optional:FigureSex(M or F)] (change avatar figure)
 :showquestsids (toggle quests ids)
+:acceptquest [QuestId] (manually accept quest by id)
 
 Enabled features:
 -Auto maximize client window at startup
