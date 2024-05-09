@@ -1,4 +1,5 @@
-Client version: WIN63-202403191031-705073869 (spoofed as WIN63-202403221220-4338875)
+Client version: WIN63-202405071516-774890658
+AIR SWF version: 51
 JPEXS version: 15.0.0
 
 Enabled commands:
@@ -72,10 +73,12 @@ Enabled features:
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
 -Forced selected chat bubble style save
 -Allow local load of furni swf files (needs to be located inside local_include folder)
--Max chat input for commands increased to 200 characters
+-Max chat input for commands increased to 200 characters (also typing indicator will be temporarily disabled)
 -Removed mannequins gender/hc limitations (in addition to avoiding crashes due to bugged mannequins)
 -Autofocus sso login screen inputfield
 -Fixed gifts calendar icon and title
 -Fixed black screen after opening gift dialogs and improved untrusted gift message localization
 -Now the default language of the login screen depends on the system language
--Fixed invisible room queue (now queue dialog is displayed)
+-Fixed bc catalog window title
+-Fixed dynamic get of isRoomOwner function
+-Fixed textfield image loading
