@@ -47,6 +47,9 @@ Enabled commands:
 :figure [FigureCode] [optional:FigureSex(M or F)] (change avatar figure)
 :showquestsids (toggle quests ids)
 :acceptquest [QuestId] (manually accept quest by id)
+:say [Something] (say something, even commands)
+:shout [Something] (shout something, even commands)
+:whisper [Something] (whisper something to clicked user, even commands)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -82,3 +85,4 @@ Enabled features:
 -Fixed bc catalog window title
 -Fixed dynamic get of isRoomOwner function
 -Fixed textfield image loading
+-Added visual color indicator to know if a command is valid
