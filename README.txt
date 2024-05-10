@@ -50,6 +50,7 @@ Enabled commands:
 :say [Something] (say something, even commands)
 :shout [Something] (shout something, even commands)
 :whisper [Something] (whisper something to clicked user, even commands)
+:give or :pass (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 
 Enabled features:
 -Auto maximize client window at startup
