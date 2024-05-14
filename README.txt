@@ -53,6 +53,7 @@ Enabled commands:
 :give or :pass (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :hkset [optional:ChatInput] (set a new chat input hotkey)
 :hkclear (clear chat input hotkeys)
+:f1 to :f12 [optional:ChatInput] (quickly set new chat input hotkey with function keys)
 
 Enabled features:
 -Auto maximize client window at startup
