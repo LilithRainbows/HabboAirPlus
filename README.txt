@@ -55,6 +55,7 @@ Enabled commands:
 :hkclear (clear chat input hotkeys)
 :f1 to :f12 [optional:ChatInput] (quickly set new chat input hotkey with function keys)
 :commands (show airplus commands list)
+:cmdcolor (toggle command input color hint)
 
 Enabled features:
 -Auto maximize client window at startup
