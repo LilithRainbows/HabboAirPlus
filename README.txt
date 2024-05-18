@@ -93,3 +93,4 @@ Enabled features:
 -Fixed dynamic get of isRoomOwner function
 -Fixed textfield image loading
 -Added visual color indicator to know if a command is valid
+-Disabled chat input flood lock to allow using commands even with flood
