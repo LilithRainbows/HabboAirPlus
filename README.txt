@@ -56,6 +56,7 @@ Enabled commands:
 :f1 to :f12 [optional:ChatInput] (quickly set new chat input hotkey with function keys)
 :commands (show airplus commands list)
 :cmdcolor (toggle command input color hint)
+:chatcolor (toggle users custom chat text color)
 
 Enabled features:
 -Auto maximize client window at startup
