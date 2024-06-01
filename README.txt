@@ -1,5 +1,5 @@
 Client version: WIN63-202405301104-303662002
-AIR SWF version: 51
+AIR SWF version: 50 (but 51 or later recommended)
 JPEXS version: 15.0.0
 
 Enabled commands:
