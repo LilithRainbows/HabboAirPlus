@@ -94,3 +94,4 @@ Enabled features:
 -Fixed textfield image loading
 -Added visual color indicator to know if a command is valid
 -Disabled chat input flood lock to allow using commands even with flood
+-Fix token split length validation
