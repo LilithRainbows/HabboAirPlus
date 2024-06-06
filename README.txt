@@ -58,6 +58,7 @@ Enabled commands:
 :cmdcolor (toggle command input color hint + tab autocompletion)
 :chatcolor (toggle users custom chat text color)
 :about or :version (show client version info)
+:nodc (toggle furniture double click capability)
 
 Enabled features:
 -Auto maximize client window at startup
