@@ -57,6 +57,7 @@ Enabled commands:
 :commands (show airplus commands list)
 :cmdcolor (toggle command input color hint)
 :chatcolor (toggle users custom chat text color)
+:about or :version (show client version info)
 
 Enabled features:
 -Auto maximize client window at startup
