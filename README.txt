@@ -59,6 +59,7 @@ Enabled commands:
 :chatcolor (toggle users custom chat text color)
 :about or :version (show client version info)
 :nodc (toggle furniture double click capability)
+:zoomgestures (toggle zoom gestures capability)
 
 Enabled features:
 -Auto maximize client window at startup
