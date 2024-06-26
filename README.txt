@@ -60,6 +60,8 @@ Enabled commands:
 :about or :version (show client version info)
 :nodc (toggle furniture double click capability)
 :zoomgestures (toggle zoom gestures capability)
+:flood [optional:ChatInput]  (toggle chat input flood)
+:flooddelay (change chat input flood delay)
 
 Enabled features:
 -Auto maximize client window at startup
