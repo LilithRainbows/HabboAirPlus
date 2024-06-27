@@ -100,3 +100,4 @@ Enabled features:
 -Added visual color indicator to know if a command is valid
 -Disabled chat input flood lock to allow using commands even with flood
 -Fix login token split length validation
+-Disabled PollReject to avoid poll cancelation
