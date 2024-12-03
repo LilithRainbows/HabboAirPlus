@@ -1,5 +1,5 @@
-Client version: WIN63-202405301104-303662002
-AIR SWF version: 50 (but 51 or later recommended)
+Client version: WIN63-202411191355-69957534
+AIR SWF version: 51
 JPEXS version: 15.0.0
 
 Enabled commands:
@@ -16,7 +16,7 @@ Enabled commands:
 :linkevent [Link] (open a linkevent) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :givegem [Amount] (give gems to clicked user) (USE AT OWN RISK)
 :lightsaber (toggle lightsaber fx)
-:furnimark (toggle furnimark mode)
+:furnimark (toggle furnimark mode) (CURRENTLY NOT WORKING)
 :autoclick (toggle autoclick mode)
 :autoclickdelay (change autoclick delay)
 :devwar (test all available clothes with forced mode) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
@@ -70,7 +70,6 @@ Enabled features:
 -Forced sit and stand command
 -Fixed connection.login.code.prompt text
 -Fixed photo thumbnails visualization
--Removed wired save confirmation message
 -Fixed closed profiles visualization
 -Improved playing mode (while active the cursor will be an arrow and look to users will be blocked)
 -Avoid client core crashes
@@ -83,7 +82,7 @@ Enabled features:
 -Allow voting for both options on community goals 
 -Fixed avatar menu arrow icons
 -Improved catalog badges visualization
--Fixed decorated gift box icon visualization
+-Fixed decorated gift box icon visualization (MAY HAVE ERRORS)
 -Updated defaut avatar editor figures
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
 -Forced selected chat bubble style save
@@ -96,8 +95,7 @@ Enabled features:
 -Now the default language of the login screen depends on the system language
 -Fixed bc catalog window title
 -Fixed dynamic get of isRoomOwner function
--Fixed textfield image loading
 -Added visual color indicator to know if a command is valid
 -Disabled chat input flood lock to allow using commands even with flood
--Fix login token split length validation
 -Disabled PollReject to avoid poll cancelation
+-Improved xmas decoration
