@@ -99,3 +99,4 @@ Enabled features:
 -Disabled chat input flood lock to allow using commands even with flood
 -Disabled PollReject to avoid poll cancelation
 -Improved xmas decoration
+-Fix login token validation
