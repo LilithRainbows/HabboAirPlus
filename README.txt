@@ -1,6 +1,6 @@
-Client version: WIN63-202411191355-69957534
+Client version: WIN63-202502191617-590633534
 AIR SWF version: 51
-JPEXS version: 15.0.0
+JPEXS version: 22.0.2
 
 Enabled commands:
 :backlight [0-255] (set room backlight value with forced mode)
@@ -62,6 +62,9 @@ Enabled commands:
 :zoomgestures (toggle zoom gestures capability)
 :flood [optional:ChatInput]  (toggle chat input flood)
 :flooddelay (change chat input flood delay)
+:tradeblock (toggle trade block)
+:walkblock (toggle walk block)
+:chatalarm [TriggerText] (toggle chat sound alarm)
 
 Enabled features:
 -Auto maximize client window at startup
