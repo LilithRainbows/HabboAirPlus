@@ -65,6 +65,7 @@ Enabled commands:
 :tradeblock (toggle trade block)
 :walkblock (toggle walk block)
 :chatalarm [TriggerText] (toggle chat sound alarm)
+:turnblock (toggle avatar turn/lookto block)
 
 Enabled features:
 -Auto maximize client window at startup
