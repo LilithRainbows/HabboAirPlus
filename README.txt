@@ -66,6 +66,7 @@ Enabled commands:
 :walkblock (toggle walk block)
 :chatalarm [TriggerText] (toggle chat sound alarm)
 :turnblock (toggle avatar turn/lookto block)
+:wcublock (toggle wiredclickuser block)
 
 Enabled features:
 -Auto maximize client window at startup
