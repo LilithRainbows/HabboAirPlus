@@ -1,4 +1,4 @@
-Client version: WIN63-202503281213-878071447
+Client version: WIN63-202503281213-878071447 (ported and spoofed as WIN63-202504011439-511701537)
 AIR SWF version: 51 (spoofed as 50 for compatibility reasons)
 JPEXS version: 22.0.2
 
