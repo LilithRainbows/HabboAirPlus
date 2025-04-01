@@ -1,5 +1,5 @@
-Client version: WIN63-202502191617-590633534
-AIR SWF version: 51
+Client version: WIN63-202503281213-878071447
+AIR SWF version: 51 (spoofed as 50 for compatibility reasons)
 JPEXS version: 22.0.2
 
 Enabled commands:
@@ -40,7 +40,6 @@ Enabled commands:
 :pingbubble [optional:auto] (change pingsay bubble to current selected chat bubble style)
 :showids (toggle objects ids viewer)
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
-:showerrors (show/hide critical client errors)
 :spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
 :rotate (toggle room rotate effect)
 :adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
@@ -67,6 +66,10 @@ Enabled commands:
 :chatalarm [TriggerText] (toggle chat sound alarm)
 :turnblock (toggle avatar turn/lookto block)
 :wcublock (toggle wiredclickuser block)
+:zoomf [Value] (toggle fractional room zoom)
+:fpsboost [auto/always/never] (toggle low fps boost) (always not recommended unless you have very low fps)
+:usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
+:movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -77,8 +80,6 @@ Enabled features:
 -Fixed photo thumbnails visualization
 -Fixed closed profiles visualization
 -Improved playing mode (while active the cursor will be an arrow and look to users will be blocked)
--Avoid client core crashes
--Fixed furni chooser items width
 -Disabled furniture selection lock
 -Now users relationships will remain invisible until they load
 -Customized login screen background
