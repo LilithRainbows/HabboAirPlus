@@ -70,6 +70,7 @@ Enabled commands:
 :fpsboost [auto/always/never] (toggle low fps boost) (always not recommended unless you have very low fps)
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
 :movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
+:aprilfools (open april fools mod tool) (USE AT OWN RISK)
 
 Enabled features:
 -Auto maximize client window at startup
