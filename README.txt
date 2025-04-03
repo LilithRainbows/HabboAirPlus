@@ -107,3 +107,4 @@ Enabled features:
 -Disabled PollReject to avoid poll cancelation
 -Improved xmas decoration
 -Fix login token validation
+-Fixed room rendering at very large resolutions
