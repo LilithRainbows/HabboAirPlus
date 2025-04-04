@@ -108,3 +108,4 @@ Enabled features:
 -Improved xmas decoration
 -Fix login token validation
 -Fixed room rendering at very large resolutions
+-Fixed black color inconsistency in the top background of rooms on HDR/OLED displays
