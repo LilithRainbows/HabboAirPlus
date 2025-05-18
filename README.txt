@@ -1,6 +1,6 @@
 *********************************************************************************
 WARNING:
-The project is temporarily suspended for personal reasons until further notice.
+The project is temporarily suspended/outdated for personal reasons until further notice.
 Use the official Habbo client to take advantage of the latest updates.
 *********************************************************************************
 
