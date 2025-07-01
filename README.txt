@@ -117,3 +117,5 @@ Enabled features:
 -Fixed room rendering at very large resolutions
 -Fixed black color inconsistency in the top background of rooms on HDR/OLED displays
 -Fixed random unresponsive left part of the screen (where the chat history is located) (beta fix)
+-Fixed a bug that prevent users context menus visibility when iterating between rooms (beta fix)
+-User and furni chooser are now visible after entering a room if it was open previously opened (beta fix)
