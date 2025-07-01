@@ -74,6 +74,7 @@ Enabled commands:
 :wcublock (toggle wiredclickuser block)
 :zoomf [Value] (toggle fractional room zoom)
 :fpsboost [auto/always/never] (toggle low fps boost) (always not recommended unless you have very low fps)
+:clickfurni [FurnitureId/LatestClickedFurniture] (click the selected furniture)
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
 :movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
 :aprilfools (open april fools mod tool) (USE AT OWN RISK)
