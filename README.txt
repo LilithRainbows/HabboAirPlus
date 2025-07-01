@@ -116,3 +116,4 @@ Enabled features:
 -Fix login token validation
 -Fixed room rendering at very large resolutions
 -Fixed black color inconsistency in the top background of rooms on HDR/OLED displays
+-Fixed random unresponsive left part of the screen (where the chat history is located) (beta fix)
