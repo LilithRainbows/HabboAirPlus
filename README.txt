@@ -1,10 +1,4 @@
-*********************************************************************************
-WARNING:
-The project is temporarily suspended/outdated for personal reasons until further notice.
-Use the official Habbo client to take advantage of the latest updates.
-*********************************************************************************
-
-Client version: WIN63-202503281213-878071447 (ported and spoofed as WIN63-202504011439-511701537)
+Client version: WIN63-202507231509-813057222 (but ported from WIN63-202507171111-374349173)
 AIR SWF version: 51 (spoofed as 50 for compatibility reasons)
 JPEXS version: 22.0.2
 
@@ -73,11 +67,12 @@ Enabled commands:
 :turnblock (toggle avatar turn/lookto block)
 :wcublock (toggle wiredclickuser block)
 :zoomf [Value] (toggle fractional room zoom)
-:fpsboost [auto/always/never] (toggle low fps boost) (always not recommended unless you have very low fps)
 :clickfurni [FurnitureId/LatestClickedFurniture] (click the selected furniture)
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
 :movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
-:aprilfools (open april fools mod tool) (USE AT OWN RISK)
+:aprilfools (request april fools 2025 badges) (USE AT OWN RISK)
+:crash (generate a critical error)
+:showerrors (show/hide critical client errors)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -111,6 +106,7 @@ Enabled features:
 -Fixed dynamic get of isRoomOwner function
 -Added visual color indicator to know if a command is valid
 -Disabled chat input flood lock to allow using commands even with flood
+-Disable chat text paste limitation
 -Disabled PollReject to avoid poll cancelation
 -Improved xmas decoration
 -Fix login token validation
@@ -119,3 +115,4 @@ Enabled features:
 -Fixed random unresponsive left part of the screen (where the chat history is located) (beta fix)
 -Fixed a bug that prevent users context menus visibility when iterating between rooms (beta fix)
 -User and furni chooser are now visible after entering a room if it was open previously opened (beta fix)
+-Fixed current room info collapse
