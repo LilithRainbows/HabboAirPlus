@@ -117,3 +117,4 @@ Enabled features:
 -Fixed a bug that prevent users context menus visibility when iterating between rooms (beta fix)
 -User and furni chooser are now visible after entering a room if it was open previously opened (beta fix)
 -Fixed current room info collapse
+-Removed wired save confirmation message
