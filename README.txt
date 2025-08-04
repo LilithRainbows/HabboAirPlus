@@ -74,6 +74,7 @@ Enabled commands:
 :aprilfools (request april fools 2025 badges) (USE AT OWN RISK)
 :crash (generate a critical error)
 :showerrors (show/hide critical client errors)
+:friendhl (toggle friend name entrance highlight)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -118,3 +119,4 @@ Enabled features:
 -User and furni chooser are now visible after entering a room if it was open previously opened (beta fix)
 -Fixed current room info collapse
 -Removed wired save confirmation message
+-Improved friend name highlight system
