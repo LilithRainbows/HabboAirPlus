@@ -28,6 +28,9 @@ Enabled commands:
 :showbubbles (show all chat bubbles styles)
 :color [HexColor/classic/pink] (change client title bar color)
 :barcolor [HexColor/classic/pink] (change client bottom bar color)
+:winblend [0.0 to 1.0] (change client window blend value)
+:barblend [0.0 to 1.0] (change client bottom bar blend value)
+:barstyle (toggle client bottom bar alternative style)
 :playing (toggle click-through with forced mode)
 :fx [FxId] (change current user fx with forced mode) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :dance [0-4] (change current dance style)
@@ -120,3 +123,4 @@ Enabled features:
 -Fixed current room info collapse
 -Removed wired save confirmation message
 -Improved friend name highlight system
+
