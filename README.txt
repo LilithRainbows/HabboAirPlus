@@ -78,6 +78,7 @@ Enabled commands:
 :crash (generate a critical error)
 :showerrors (show/hide critical client errors)
 :friendhl (toggle friend name entrance highlight)
+:fon [0-2] (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -123,4 +124,5 @@ Enabled features:
 -Fixed current room info collapse
 -Removed wired save confirmation message
 -Improved friend name highlight system
+
 
