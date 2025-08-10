@@ -124,5 +124,6 @@ Enabled features:
 -Fixed current room info collapse
 -Removed wired save confirmation message
 -Improved friend name highlight system
+-Now zoom level 1 centers camera position
 
 
