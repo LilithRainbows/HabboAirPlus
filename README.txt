@@ -79,6 +79,7 @@ Enabled commands:
 :showerrors (show/hide critical client errors)
 :friendhl (toggle friend name entrance highlight)
 :fon [0-2] (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
+:swb (toggle shift walk block)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -125,5 +126,6 @@ Enabled features:
 -Removed wired save confirmation message
 -Improved friend name highlight system
 -Now zoom level 1 centers camera position
+
 
 
