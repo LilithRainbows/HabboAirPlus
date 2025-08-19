@@ -82,6 +82,7 @@ Enabled commands:
 :fon [0-2] (0=disabled/1=enabled for all/2=enabled for relationships) (show a notification when a friend goes online)
 :shift (toggle shift key to walk block)
 :ctrl (toggle ctrl key to use furnitures on single click)
+:hideignoredbubble (toggle hide ignored users bubble)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -128,6 +129,7 @@ Enabled features:
 -Removed wired save confirmation message
 -Improved friend name highlight system
 -Now zoom level 1 centers camera position
+
 
 
 
