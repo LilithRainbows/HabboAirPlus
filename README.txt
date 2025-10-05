@@ -83,6 +83,7 @@ Enabled commands:
 :shift (toggle shift key to walk block)
 :ctrl (toggle ctrl key to use furnitures on single click)
 :hideignoredbubble (toggle hide ignored users bubble)
+:spawn [FurniName] [optional:FurniState] (spawn requested furni at current user position/direction)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -129,6 +130,7 @@ Enabled features:
 -Removed wired save confirmation message
 -Improved friend name highlight system
 -Now zoom level 1 centers camera position
+
 
 
 
