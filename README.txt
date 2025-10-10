@@ -1,4 +1,4 @@
-Client version: WIN63-202507231509-813057222 (but ported from WIN63-202507171111-374349173)
+Client version: WIN63-202510081736-603747755
 AIR SWF version: 51 (spoofed as 50 for compatibility reasons)
 JPEXS version: 22.0.2
 
@@ -118,7 +118,7 @@ Enabled features:
 -Added visual color indicator to know if a command is valid
 -Disabled chat input flood lock to allow using commands even with flood
 -Disable chat text paste limitation
--Disabled PollReject to avoid poll cancelation
+-Disabled PollReject to avoid poll cancelation (but they remain hidden during current game session)
 -Improved xmas decoration
 -Fix login token validation
 -Fixed room rendering at very large resolutions
@@ -130,11 +130,7 @@ Enabled features:
 -Removed wired save confirmation message
 -Improved friend name highlight system
 -Now zoom level 1 centers camera position
-
-
-
-
-
-
-
-
+-Fixed hidden profile localization
+-Avoid remote errors logs and force full local errors logs
+-Improved memenu toolbar icon
+-Re enabled star gems count (users profiles)
