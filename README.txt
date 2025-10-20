@@ -84,6 +84,7 @@ Enabled commands:
 :ctrl (toggle ctrl key to use furnitures on single click)
 :hideignoredbubble (toggle hide ignored users bubble)
 :spawn [FurniName] [optional:FurniState] (spawn requested furni at current user position/direction) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:laugh (laugh expression, hc only)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -134,3 +135,4 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Re enabled star gems count (users profiles)
+
