@@ -31,6 +31,7 @@ Enabled commands:
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize [12-40] (change chat font size with forced mode)
 :showbubbles (show all chat bubbles styles)
+:seasonal (toggle client seasonal colors)
 :color [HexColor/classic/pink] (change client title bar color)
 :barcolor [HexColor/classic/pink] (change client bottom bar color)
 :winblend [0.0 to 1.0] (change client window blend value)
@@ -140,5 +141,6 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Re enabled star gems count (users profiles)
+
 
 
