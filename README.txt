@@ -60,6 +60,7 @@ Enabled commands:
 :whisper [Something] (whisper something to clicked user, even commands)
 :give or :pass (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :hkset [optional:ChatInput] (set a new chat input hotkey)
+:hkmode (toggle hotkey press mode)
 :hkshow (show saved hotkeys)
 :hkclear (clear chat input hotkeys)
 :f1 to :f12 [optional:ChatInput] (quickly set new chat input hotkey with function keys)
@@ -141,6 +142,7 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Re enabled star gems count (users profiles)
+
 
 
 
