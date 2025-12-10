@@ -79,6 +79,7 @@ Enabled commands:
 :turnblock (toggle avatar turn/lookto block)
 :wcublock (toggle wiredclickuser block)
 :zoomf [Value] (toggle fractional room zoom)
+:clickuser [UserTempId/LatestClickedUser] (click the selected user)
 :clickfurni [FurnitureId/LatestClickedFurniture] (click the selected furniture)
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
 :movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
@@ -142,6 +143,7 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Re enabled star gems count (users profiles)
+
 
 
 
