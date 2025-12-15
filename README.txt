@@ -3,7 +3,7 @@ To view and edit project's source code you need to download JPEXS:
 https://github.com/jindrapetrik/jpexs-decompiler/releases/latest
 *********************************************************************
 
-Client version: WIN63-202510081736-603747755
+Client version: WIN63-202510081736-603747755 (spoofed as WIN63-202512101753-364126151)
 AIR SWF version: 51 (spoofed as 50 for compatibility reasons)
 JPEXS version: 22.0.2
 
@@ -143,6 +143,7 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Re enabled star gems count (users profiles)
+
 
 
 
