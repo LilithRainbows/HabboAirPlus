@@ -1,3 +1,5 @@
+WARNING: The project is temporarily outdated, but it will be back soon!
+
 *********************************************************************
 To view and edit project's source code you need to download JPEXS:
 https://github.com/jindrapetrik/jpexs-decompiler/releases/latest
@@ -143,6 +145,7 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Re enabled star gems count (users profiles)
+
 
 
 
