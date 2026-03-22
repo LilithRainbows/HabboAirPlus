@@ -86,6 +86,8 @@ Enabled commands:
 :spawn [FurniName] [optional:FurniState] (spawn requested furni at current user position/direction) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :laugh (laugh expression, hc only)
 :furnitech (open sandbox self donate window) (client side only)
+:mutepets (toggle pets mute with forced mode)
+:mutebots (toggle bots mute with forced mode)
 
 Enabled features:
 -Auto maximize client window at startup
