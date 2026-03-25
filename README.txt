@@ -88,6 +88,9 @@ Enabled commands:
 :furnitech (open sandbox self donate window) (client side only)
 :mutepets (toggle pets mute with forced mode)
 :mutebots (toggle bots mute with forced mode)
+:mutecmd (toggle commands chat hints)
+:clearchat (clear room chat)
+:clearhist (clear chat history)
 
 Enabled features:
 -Auto maximize client window at startup
