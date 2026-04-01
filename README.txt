@@ -1,13 +1,3 @@
-*********************************************************************
-To view and edit project's source code you need to download JPEXS:
-https://github.com/jindrapetrik/jpexs-decompiler/releases/latest
-*********************************************************************
-
-Client version: WIN63-202603091410-618570407
-AIR SWF version: 51
-JPEXS version: 22.0.2
-
-Enabled commands:
 :backlight [0-255] (set room backlight value with forced mode)
 :roomlight [0-255] (set room light value with forced mode)
 :bgcolor [HueNumber] [SaturationNumber] [LightnessNumber] (change room background color with forced mode)
@@ -70,7 +60,7 @@ Enabled commands:
 :chatalarm [TriggerText] (toggle chat sound alarm)
 :turnblock (toggle avatar turn/lookto block)
 :wcublock (toggle wiredclickuser block)
-:zoomf [Value] (toggle fractional room zoom)
+:zoomf [Value] (toggle fractional room zoom with forced mode)
 :clickuser [UserTempId/LatestClickedUser] (click the selected user)
 :clickfurni [FurnitureId/LatestClickedFurniture] (click the selected furniture)
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
@@ -91,43 +81,4 @@ Enabled commands:
 :mutecmd (toggle commands chat hints)
 :clearchat (clear room chat)
 :clearhist (clear chat history)
-
-Enabled features:
--Auto maximize client window at startup
--Chooser, furni and bcfloor commands always available
--Fixed https protocol
--Forced sit and stand command
--Fixed connection.login.code.prompt text
--Fixed photo thumbnails visualization
--Improved playing mode (while active the cursor will be an arrow and look to users will be blocked)
--Customized login screen background
--Now commands variables are saved
--Fixed avatar menu arrow icons
--Improved catalog badges visualization
--Fixed decorated gift box icon visualization (MAY HAVE ERRORS)
--Updated defaut avatar editor figures
--Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
--Allow local load of furni swf files (needs to be located inside local_include folder)
--Max chat input for commands increased to 200 characters (also typing indicator will be temporarily disabled)
--Removed mannequins gender/hc limitations (in addition to avoiding crashes due to bugged mannequins)
--Autofocus sso login screen inputfield
--Fixed black screen after opening gift dialogs and improved untrusted gift message localization
--Now the default language of the login screen depends on the system language
--Fixed bc catalog window title
--Fixed dynamic get of isRoomOwner function
--Added visual color indicator to know if a command is valid
--Disabled chat input flood lock to allow using commands even with flood
--Disable chat text paste limitation
--Disabled PollReject to avoid poll cancelation (but they remain hidden during current game session)
--Improved seasonal decoration
--Fix login token validation
--Fixed room rendering at very large resolutions
--Fixed black color inconsistency in the top background of rooms on HDR/OLED displays
--Fixed random unresponsive left part of the screen (where the chat history is located) (beta fix)
--Fixed a bug that prevent users context menus visibility when iterating between rooms (beta fix)
--Fixed current room info collapse
--Removed wired save confirmation message
--Improved friend name highlight system
--Now zoom level 1 centers camera position
--Avoid remote errors logs and force full local errors logs
--Improved memenu toolbar icon
+:caution (show/hide moderation caution alerts)
