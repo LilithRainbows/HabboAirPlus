@@ -1,6 +1,6 @@
+*********************************************************************
 Looking for the download page? ⬇️
 https://github.com/LilithRainbows/HabboAirPlus/releases/latest
-
 *********************************************************************
 To view and edit project's source code you need to download JPEXS:
 https://github.com/jindrapetrik/jpexs-decompiler/releases/latest
