@@ -1,4 +1,4 @@
-Download AirPlus here:
+Looking for the download page? ⬇️
 https://github.com/LilithRainbows/HabboAirPlus/releases/latest
 
 *********************************************************************
