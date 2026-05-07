@@ -97,6 +97,7 @@ Enabled commands:
 :caution (show/hide moderation caution alerts)
 :hidefigures (hide all users with the current selected figure)
 :hidepoints [MaxPoints] (hide all users with less or equal activity points)
+:linkport (link the selected teleport to another teleport)
 
 Enabled features:
 -Auto maximize client window at startup
