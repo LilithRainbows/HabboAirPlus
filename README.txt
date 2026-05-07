@@ -137,3 +137,4 @@ Enabled features:
 -Now zoom level 1 centers camera position
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
+-Fixed messenger close button position
