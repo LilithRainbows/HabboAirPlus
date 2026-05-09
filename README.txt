@@ -98,6 +98,11 @@ Enabled commands:
 :hidefigures (hide all users with the current selected figure)
 :hidepoints [MaxPoints] (hide all users with less or equal activity points)
 :linkport (link the selected teleport to another teleport)
+:savelook [Name] (save current look)
+:uselook [Name] (use requested saved look)
+:removelook [Name] (remove requested saved look)
+:showlooks (show saved looks)
+:clearlooks (clear saved looks)
 
 Enabled features:
 -Auto maximize client window at startup
