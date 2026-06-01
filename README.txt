@@ -6,7 +6,7 @@ To view and edit project's source code you need to download JPEXS:
 https://github.com/jindrapetrik/jpexs-decompiler/releases/latest
 *********************************************************************
 
-Client version: WIN63-202603091410-618570407
+Client version: WIN63-202507171111-374349173 (spoofed as WIN63-202603091410-618570407)
 AIR SWF version: 51
 JPEXS version: 22.0.2
 
@@ -22,14 +22,18 @@ Enabled commands:
 :handitem [ItemId] (change current user handitem) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :calendar (open calendar) (USE AT OWN RISK)
 :linkevent [Link] (open a linkevent) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:givegem [Amount] (give gems to clicked user) (USE AT OWN RISK)
 :lightsaber (toggle lightsaber fx)
+:furnimark (toggle furnimark mode) (CURRENTLY NOT WORKING)
 :autoclick (toggle autoclick mode)
 :autoclickdelay (change autoclick delay)
+:devwar (test all available clothes with forced mode) (optional: figure can be loaded from clicked user) (IN SERVER-SIDE CASES USE AT OWN RISK)
+:stopdevwar (stop devwar command and recover your real look)
 :resetvars (reset saved client variables)
 :infostand (toggle furni/user infostand visibility)
 :chatmute (mute/unmute room chat with forced mode and without affecting chat history)
 :chatsize [12-40] (change chat font size with forced mode)
-:seasonal (toggle client seasonal colors)
+:showbubbles (show all chat bubbles styles)
 :color [HexColor/classic/pink] (change client title bar color)
 :barcolor [HexColor/classic/pink] (change client bottom bar color)
 :winblend [0.0 to 1.0] (change client window blend value)
@@ -45,17 +49,19 @@ Enabled commands:
 :pingbeforetext (change text before ping value)
 :pingaftertext (change text after ping value)
 :pingbubble [optional:auto] (change pingsay bubble to current selected chat bubble style)
+:showids (toggle objects ids viewer)
 :typing (toggle chat typing indicator) (USE AT OWN RISK)
+:spoofbubbles [optional:own] (spoof chat bubbles to current selected chat bubble style)
 :rotate (toggle room rotate effect)
 :adblock (toggle mpu ad blocker) (IN SERVER-SIDE CASES USE AT OWN RISK)
 :figure [FigureCode] [optional:FigureSex(M or F)] (change avatar figure)
+:showquestsids (toggle quests ids)
 :acceptquest [QuestId] (manually accept quest by id)
 :say [Something] (say something, even commands)
 :shout [Something] (shout something, even commands)
 :whisper [Something] (whisper something to clicked user, even commands)
 :give or :pass (give handitem to clicked user/pet) (USE AT OWN RISK ON PETS)
 :hkset [optional:ChatInput] (set a new chat input hotkey)
-:hkmode (toggle hotkey press mode)
 :hkshow (show saved hotkeys)
 :hkclear (clear chat input hotkeys)
 :f1 to :f12 [optional:ChatInput] (quickly set new chat input hotkey with function keys)
@@ -73,8 +79,7 @@ Enabled commands:
 :chatalarm [TriggerText] (toggle chat sound alarm)
 :turnblock (toggle avatar turn/lookto block)
 :wcublock (toggle wiredclickuser block)
-:zoomf [Value] (toggle fractional room zoom with forced mode)
-:clickuser [UserTempId/LatestClickedUser] (click the selected user)
+:zoomf [Value] (toggle fractional room zoom)
 :clickfurni [FurnitureId/LatestClickedFurniture] (click the selected furniture)
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
 :movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
@@ -87,42 +92,33 @@ Enabled commands:
 :ctrl (toggle ctrl key to use furnitures on single click)
 :hideignoredbubble (toggle hide ignored users bubble)
 :spawn [FurniName] [optional:FurniState] (spawn requested furni at current user position/direction) (IN SERVER-SIDE CASES USE AT OWN RISK)
-:laugh (laugh expression, hc only)
-:furnitech (open sandbox self donate window) (client side only)
-:mutepets (toggle pets mute with forced mode)
-:mutebots (toggle bots mute with forced mode)
-:mutecmd (toggle commands chat hints)
-:clearchat (clear room chat)
-:clearhist (clear chat history)
-:caution (show/hide moderation caution alerts)
-:hidefigures (hide all users with the current selected figure)
-:hidepoints [MaxPoints] (hide all users with less or equal activity points)
-:linkport (link the selected teleport to another teleport)
-:savelook [Name] (save current look)
-:uselook [Name] (use requested saved look)
-:removelook [Name] (remove requested saved look)
-:showlooks (show saved looks)
-:clearlooks (clear saved looks)
 
 Enabled features:
 -Auto maximize client window at startup
--Chooser, furni and bcfloor commands always available
+-Chooser, furni and bcfloor commands are now available for all users
 -Fixed https protocol
 -Forced sit and stand command
 -Fixed connection.login.code.prompt text
 -Fixed photo thumbnails visualization
+-Fixed closed profiles visualization
 -Improved playing mode (while active the cursor will be an arrow and look to users will be blocked)
+-Disabled furniture selection lock
+-Now users relationships will remain invisible until they load
 -Customized login screen background
+-Removed EncryptedLocalStorage
 -Now commands variables are saved
+-Allow voting for both options on community goals 
 -Fixed avatar menu arrow icons
 -Improved catalog badges visualization
 -Fixed decorated gift box icon visualization (MAY HAVE ERRORS)
 -Updated defaut avatar editor figures
 -Restored original clickRoomObject functionality (to allow alt, ctrl or shift with single click on room object)
+-Forced selected chat bubble style save
 -Allow local load of furni swf files (needs to be located inside local_include folder)
 -Max chat input for commands increased to 200 characters (also typing indicator will be temporarily disabled)
 -Removed mannequins gender/hc limitations (in addition to avoiding crashes due to bugged mannequins)
 -Autofocus sso login screen inputfield
+-Fixed gifts calendar icon and title
 -Fixed black screen after opening gift dialogs and improved untrusted gift message localization
 -Now the default language of the login screen depends on the system language
 -Fixed bc catalog window title
@@ -130,17 +126,16 @@ Enabled features:
 -Added visual color indicator to know if a command is valid
 -Disabled chat input flood lock to allow using commands even with flood
 -Disable chat text paste limitation
--Disabled PollReject to avoid poll cancelation (but they remain hidden during current game session)
--Improved seasonal decoration
+-Disabled PollReject to avoid poll cancelation
+-Improved xmas decoration
 -Fix login token validation
 -Fixed room rendering at very large resolutions
 -Fixed black color inconsistency in the top background of rooms on HDR/OLED displays
 -Fixed random unresponsive left part of the screen (where the chat history is located) (beta fix)
 -Fixed a bug that prevent users context menus visibility when iterating between rooms (beta fix)
+-User and furni chooser are now visible after entering a room if it was open previously opened (beta fix)
 -Fixed current room info collapse
 -Removed wired save confirmation message
 -Improved friend name highlight system
 -Now zoom level 1 centers camera position
--Avoid remote errors logs and force full local errors logs
--Improved memenu toolbar icon
--Fixed messenger close button position
+
