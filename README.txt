@@ -6,7 +6,9 @@ To view and edit project's source code you need to download JPEXS:
 https://github.com/jindrapetrik/jpexs-decompiler/releases/latest
 *********************************************************************
 
-Client version: WIN63-202603091410-618570407
+[The project was ported from a previous version without intensive review; some commands may not work correctly]
+
+Client version: WIN63-202606011215-150448581
 AIR SWF version: 51
 JPEXS version: 22.0.2
 
