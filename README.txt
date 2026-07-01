@@ -147,3 +147,5 @@ Enabled features:
 -Avoid remote errors logs and force full local errors logs
 -Improved memenu toolbar icon
 -Fixed messenger close button position
+-Fix chatinput caption
+-Fix chatinput bar position
