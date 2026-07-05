@@ -149,3 +149,6 @@ Enabled features:
 -Fixed messenger close button position
 -Fix chatinput caption
 -Fix chatinput bar position
+-Add infinite local wardrobe
+-Make all windows draggable from content
+-Fix hc center draggable text bug
