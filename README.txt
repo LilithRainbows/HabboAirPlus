@@ -152,3 +152,5 @@ Enabled features:
 -Add infinite local wardrobe
 -Make all windows draggable from content
 -Fix hc center draggable text bug
+-Display current room name and owner
+-Set friendbar max tab count to 2
