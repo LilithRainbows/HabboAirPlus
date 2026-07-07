@@ -110,6 +110,8 @@ Enabled commands:
 :removelook [Name] (remove requested saved look)
 :showlooks (show saved looks)
 :clearlooks (clear saved looks)
+:rescam (reset room camera position)
+:totem (toggle totem helper for selected furni)
 
 Enabled features:
 -Auto maximize client window at startup
