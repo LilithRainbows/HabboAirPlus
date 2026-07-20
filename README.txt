@@ -112,6 +112,8 @@ Enabled commands:
 :clearlooks (clear saved looks)
 :rescam (reset room camera position)
 :totem (toggle totem helper for selected furni) (USE AT OWN RISK)
+:solexp (export client configuration/sol file)
+:solimp (import client configuration/sol file)
 
 Enabled features:
 -Auto maximize client window at startup
