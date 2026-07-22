@@ -114,6 +114,7 @@ Enabled commands:
 :totem (toggle totem helper for selected furni) (USE AT OWN RISK)
 :solexp (export client configuration/sol file)
 :solimp (import client configuration/sol file)
+:navfilter (toggle room navigator filter to avoid botted or unwanted rooms) (work in progress)
 
 Enabled features:
 -Auto maximize client window at startup
