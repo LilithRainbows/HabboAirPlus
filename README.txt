@@ -115,6 +115,8 @@ Enabled commands:
 :solexp (export client configuration/sol file)
 :solimp (import client configuration/sol file)
 :navfilter (toggle room navigator filter to avoid botted or unwanted rooms) (work in progress)
+:profile [UserId] (open requested profile id) (USE AT OWN RISK)
+:copyid (copy current clicked object/user id)
 
 Enabled features:
 -Auto maximize client window at startup
@@ -160,3 +162,4 @@ Enabled features:
 -Display current room name and owner
 -Set friendbar max tab count to 2
 -Improved room navigator
+-Show user id at extended profile view
