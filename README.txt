@@ -117,6 +117,7 @@ Enabled commands:
 :navfilter (toggle room navigator filter to avoid botted or unwanted rooms) (work in progress)
 :profile [UserId] (open requested profile id) (USE AT OWN RISK)
 :copyid (copy current clicked object/user id)
+:tplants (treat all monster plants in room) (USE AT OWN RISK)
 
 Enabled features:
 -Auto maximize client window at startup
