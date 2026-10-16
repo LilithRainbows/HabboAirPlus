@@ -86,6 +86,9 @@ Enabled commands:
 :usefurni [FurnitureId/LatestClickedFurniture] (use the selected furniture)
 :movetofurni [FurnitureId/LatestClickedFurniture] (move to the selected furniture)
 :aprilfools (request april fools 2025 badges) (USE AT OWN RISK)
+:starterchest (request starter chest furni and badge) (USE AT OWN RISK)
+:bluedragon (request blue cursed dragon pet and badge) (USE AT OWN RISK)
+:purpledragon (request purple cursed dragon pet and badge) (USE AT OWN RISK)
 :crash (generate a critical error)
 :showerrors (show/hide critical client errors)
 :friendhl (toggle friend name entrance highlight)
@@ -164,3 +167,4 @@ Enabled features:
 -Set friendbar max tab count to 2
 -Improved room navigator
 -Show user id at extended profile view
+-Forced enabling of the SSO login screen
