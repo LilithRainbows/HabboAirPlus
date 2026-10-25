@@ -121,6 +121,7 @@ Enabled commands:
 :profile [UserId] (open requested profile id) (USE AT OWN RISK)
 :copyid (copy current clicked object/user id)
 :tplants (treat all monster plants in room) (USE AT OWN RISK)
+:changes (toggle room changes block) (i.e. room area hider)
 
 Enabled features:
 -Auto maximize client window at startup
