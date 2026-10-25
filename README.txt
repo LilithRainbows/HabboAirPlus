@@ -152,7 +152,7 @@ Enabled features:
 -Improved seasonal decoration
 -Fix login token validation
 -Fixed a bug that prevent users context menus visibility when iterating between rooms (beta fix)
--User chooser is now visible after entering a room if it was open previously opened + disabled chooser avatar turn (beta fix)
+-User chooser is now visible after entering a room if it was open previously opened + disabled chooser avatar turn + disabled chooser avatar wired click (beta fix)
 -Removed wired save confirmation message
 -Improved friend name highlight system
 -Avoid remote errors logs and force full local errors logs
